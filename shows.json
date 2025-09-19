@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "show001",
+    "movie": "tt15239678",
+    "showDateTime": "2025-10-26T10:00:00.000Z",
+    "showPrice": 250,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show002",
+    "movie": "tt15239678",
+    "showDateTime": "2025-10-26T14:00:00.000Z",
+    "showPrice": 250,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show003",
+    "movie": "tt12439746",
+    "showDateTime": "2025-10-27T18:00:00.000Z",
+    "showPrice": 300,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show004",
+    "movie": "tt12439746",
+    "showDateTime": "2025-10-27T21:00:00.000Z",
+    "showPrice": 300,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show005",
+    "movie": "tt1745960",
+    "showDateTime": "2025-11-01T15:00:00.000Z",
+    "showPrice": 200,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show006",
+    "movie": "tt1745960",
+    "showDateTime": "2025-11-01T19:00:00.000Z",
+    "showPrice": 200,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show007",
+    "movie": "tt10648342",
+    "showDateTime": "2025-11-02T16:00:00.000Z",
+    "showPrice": 220,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show008",
+    "movie": "tt10648342",
+    "showDateTime": "2025-11-02T20:00:00.000Z",
+    "showPrice": 220,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show009",
+    "movie": "tt9114286",
+    "showDateTime": "2025-11-03T17:00:00.000Z",
+    "showPrice": 280,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show010",
+    "movie": "tt9114286",
+    "showDateTime": "2025-11-03T21:00:00.000Z",
+    "showPrice": 280,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show011",
+    "movie": "tt6710474",
+    "showDateTime": "2025-11-04T14:00:00.000Z",
+    "showPrice": 350,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show012",
+    "movie": "tt6710474",
+    "showDateTime": "2025-11-04T18:00:00.000Z",
+    "showPrice": 350,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show013",
+    "movie": "tt1375666",
+    "showDateTime": "2025-11-05T19:00:00.000Z",
+    "showPrice": 400,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show014",
+    "movie": "tt1375666",
+    "showDateTime": "2025-11-05T22:00:00.000Z",
+    "showPrice": 400,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show015",
+    "movie": "tt0816692",
+    "showDateTime": "2025-11-06T20:00:00.000Z",
+    "showPrice": 450,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show016",
+    "movie": "tt0816692",
+    "showDateTime": "2025-11-06T23:00:00.000Z",
+    "showPrice": 450,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show017",
+    "movie": "tt0468569",
+    "showDateTime": "2025-11-07T21:00:00.000Z",
+    "showPrice": 500,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show018",
+    "movie": "tt0468569",
+    "showDateTime": "2025-11-08T00:00:00.000Z",
+    "showPrice": 500,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show019",
+    "movie": "tt12262376",
+    "showDateTime": "2025-09-20T12:00:00.000Z",
+    "showPrice": 150,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show020",
+    "movie": "tt12262376",
+    "showDateTime": "2025-09-20T15:00:00.000Z",
+    "showPrice": 150,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show021",
+    "movie": "tt12844910",
+    "showDateTime": "2025-09-21T13:00:00.000Z",
+    "showPrice": 180,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show022",
+    "movie": "tt12844910",
+    "showDateTime": "2025-09-21T16:00:00.000Z",
+    "showPrice": 180,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show023",
+    "movie": "tt21802348",
+    "showDateTime": "2025-09-22T14:00:00.000Z",
+    "showPrice": 200,
+    "occupiedSeats": {}
+  },
+  {
+    "_id": "show024",
+    "movie": "tt21802348",
+    "showDateTime": "2025-09-22T17:00:00.000Z",
+    "showPrice": 200,
+    "occupiedSeats": {}
+  }
+]

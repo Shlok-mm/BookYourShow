@@ -1,6 +1,7 @@
 import Booking from "../models/Booking.js"
 import Show from "../models/Show.js";
 import User from "../models/User.js";
+import Movie from "../models/Movie.js";
 
 
 // API to check if user is admin
@@ -49,6 +50,25 @@ export const getAllBookings = async (req, res) =>{
             populate: {path: "movie"}
         }).sort({ createdAt: -1 })
         res.json({success: true, bookings })
+    } catch (error) {
+        console.error(error);
+        res.json({success: false, message: error.message})
+    }
+}
+
+// API to get all movies
+export const getAllMovies = async (req, res) =>{
+    try {
+        const moviesFromDB = await Movie.find({});
+        const movies = moviesFromDB.map(movie => ({
+            id: movie._id,
+            title: movie.title,
+            poster_path: movie.poster_path,
+            vote_average: movie.vote_average,
+            vote_count: movie.vote_count,
+            release_date: movie.release_date,
+        }));
+        res.json({success: true, movies})
     } catch (error) {
         console.error(error);
         res.json({success: false, message: error.message})

@@ -22,7 +22,9 @@ app.use('/api/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
 // Middleware
 app.use(express.json())
 app.use(cors())
-app.use(clerkMiddleware())
+app.use(clerkMiddleware({
+  skip: (req) => req.path.startsWith('/api/show/')
+}))
 
 
 // API Routes

@@ -20,9 +20,9 @@ const AddShows = () => {
     const [addingShow, setAddingShow] = useState(false)
 
 
-     const fetchNowPlayingMovies = async () => {
+     const fetchAllMovies = async () => {
         try {
-            const { data } = await axios.get('/api/show/now-playing', {
+            const { data } = await axios.get('/api/admin/all-movies', {
                 headers: { Authorization: `Bearer ${await getToken()}` }})
                 if(data.success){
                     setNowPlayingMovies(data.movies)
@@ -95,7 +95,7 @@ const AddShows = () => {
 
     useEffect(() => {
         if(user){
-            fetchNowPlayingMovies();
+            fetchAllMovies();
         }
     }, [user]);
 

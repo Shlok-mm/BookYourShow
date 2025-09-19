@@ -21,6 +21,8 @@ export const AppProvider = ({ children })=>{
     const location = useLocation()
     const navigate = useNavigate()
 
+    console.log("Shlok het")
+
     const fetchIsAdmin = async ()=>{
         try {
             const {data} = await axios.get('/api/admin/is-admin', {headers: {Authorization: `Bearer ${await getToken()}`}})
